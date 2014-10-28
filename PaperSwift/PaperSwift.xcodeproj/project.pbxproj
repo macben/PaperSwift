@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B5F799BE19FFDC9E00B7949E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F799BD19FFDC9E00B7949E /* AppDelegate.swift */; };
+		B5F799C119FFDC9E00B7949E /* PaperSwift.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B5F799BF19FFDC9E00B7949E /* PaperSwift.xcdatamodeld */; };
+		B5F799C319FFDC9E00B7949E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F799C219FFDC9E00B7949E /* ViewController.swift */; };
+		B5F799C619FFDC9E00B7949E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5F799C419FFDC9E00B7949E /* Main.storyboard */; };
+		B5F799C819FFDC9E00B7949E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5F799C719FFDC9E00B7949E /* Images.xcassets */; };
+		B5F799CB19FFDC9E00B7949E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5F799C919FFDC9E00B7949E /* LaunchScreen.xib */; };
+		B5F799D719FFDC9E00B7949E /* PaperSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F799D619FFDC9E00B7949E /* PaperSwiftTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B5F799D119FFDC9E00B7949E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5F799B019FFDC9E00B7949E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5F799B719FFDC9E00B7949E;
+			remoteInfo = PaperSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B5F799B819FFDC9E00B7949E /* PaperSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PaperSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5F799BC19FFDC9E00B7949E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5F799BD19FFDC9E00B7949E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B5F799C019FFDC9E00B7949E /* PaperSwift.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PaperSwift.xcdatamodel; sourceTree = "<group>"; };
+		B5F799C219FFDC9E00B7949E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B5F799C519FFDC9E00B7949E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B5F799C719FFDC9E00B7949E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B5F799CA19FFDC9E00B7949E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		B5F799D019FFDC9E00B7949E /* PaperSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PaperSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5F799D519FFDC9E00B7949E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5F799D619FFDC9E00B7949E /* PaperSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaperSwiftTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B5F799B519FFDC9E00B7949E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5F799CD19FFDC9E00B7949E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B5F799AF19FFDC9E00B7949E = {
+			isa = PBXGroup;
+			children = (
+				B5F799BA19FFDC9E00B7949E /* PaperSwift */,
+				B5F799D319FFDC9E00B7949E /* PaperSwiftTests */,
+				B5F799B919FFDC9E00B7949E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B5F799B919FFDC9E00B7949E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B5F799B819FFDC9E00B7949E /* PaperSwift.app */,
+				B5F799D019FFDC9E00B7949E /* PaperSwiftTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B5F799BA19FFDC9E00B7949E /* PaperSwift */ = {
+			isa = PBXGroup;
+			children = (
+				B5F799BD19FFDC9E00B7949E /* AppDelegate.swift */,
+				B5F799C219FFDC9E00B7949E /* ViewController.swift */,
+				B5F799C419FFDC9E00B7949E /* Main.storyboard */,
+				B5F799C719FFDC9E00B7949E /* Images.xcassets */,
+				B5F799C919FFDC9E00B7949E /* LaunchScreen.xib */,
+				B5F799BF19FFDC9E00B7949E /* PaperSwift.xcdatamodeld */,
+				B5F799BB19FFDC9E00B7949E /* Supporting Files */,
+			);
+			path = PaperSwift;
+			sourceTree = "<group>";
+		};
+		B5F799BB19FFDC9E00B7949E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B5F799BC19FFDC9E00B7949E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B5F799D319FFDC9E00B7949E /* PaperSwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				B5F799D619FFDC9E00B7949E /* PaperSwiftTests.swift */,
+				B5F799D419FFDC9E00B7949E /* Supporting Files */,
+			);
+			path = PaperSwiftTests;
+			sourceTree = "<group>";
+		};
+		B5F799D419FFDC9E00B7949E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B5F799D519FFDC9E00B7949E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B5F799B719FFDC9E00B7949E /* PaperSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5F799DA19FFDC9E00B7949E /* Build configuration list for PBXNativeTarget "PaperSwift" */;
+			buildPhases = (
+				B5F799B419FFDC9E00B7949E /* Sources */,
+				B5F799B519FFDC9E00B7949E /* Frameworks */,
+				B5F799B619FFDC9E00B7949E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PaperSwift;
+			productName = PaperSwift;
+			productReference = B5F799B819FFDC9E00B7949E /* PaperSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B5F799CF19FFDC9E00B7949E /* PaperSwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5F799DD19FFDC9E00B7949E /* Build configuration list for PBXNativeTarget "PaperSwiftTests" */;
+			buildPhases = (
+				B5F799CC19FFDC9E00B7949E /* Sources */,
+				B5F799CD19FFDC9E00B7949E /* Frameworks */,
+				B5F799CE19FFDC9E00B7949E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B5F799D219FFDC9E00B7949E /* PBXTargetDependency */,
+			);
+			name = PaperSwiftTests;
+			productName = PaperSwiftTests;
+			productReference = B5F799D019FFDC9E00B7949E /* PaperSwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B5F799B019FFDC9E00B7949E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = meteomodem;
+				TargetAttributes = {
+					B5F799B719FFDC9E00B7949E = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					B5F799CF19FFDC9E00B7949E = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = B5F799B719FFDC9E00B7949E;
+					};
+				};
+			};
+			buildConfigurationList = B5F799B319FFDC9E00B7949E /* Build configuration list for PBXProject "PaperSwift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B5F799AF19FFDC9E00B7949E;
+			productRefGroup = B5F799B919FFDC9E00B7949E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B5F799B719FFDC9E00B7949E /* PaperSwift */,
+				B5F799CF19FFDC9E00B7949E /* PaperSwiftTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B5F799B619FFDC9E00B7949E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5F799C619FFDC9E00B7949E /* Main.storyboard in Resources */,
+				B5F799CB19FFDC9E00B7949E /* LaunchScreen.xib in Resources */,
+				B5F799C819FFDC9E00B7949E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5F799CE19FFDC9E00B7949E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B5F799B419FFDC9E00B7949E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5F799C319FFDC9E00B7949E /* ViewController.swift in Sources */,
+				B5F799C119FFDC9E00B7949E /* PaperSwift.xcdatamodeld in Sources */,
+				B5F799BE19FFDC9E00B7949E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5F799CC19FFDC9E00B7949E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5F799D719FFDC9E00B7949E /* PaperSwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B5F799D219FFDC9E00B7949E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B5F799B719FFDC9E00B7949E /* PaperSwift */;
+			targetProxy = B5F799D119FFDC9E00B7949E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B5F799C419FFDC9E00B7949E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5F799C519FFDC9E00B7949E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B5F799C919FFDC9E00B7949E /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5F799CA19FFDC9E00B7949E /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B5F799D819FFDC9E00B7949E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B5F799D919FFDC9E00B7949E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B5F799DB19FFDC9E00B7949E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PaperSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B5F799DC19FFDC9E00B7949E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PaperSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B5F799DE19FFDC9E00B7949E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PaperSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PaperSwift.app/PaperSwift";
+			};
+			name = Debug;
+		};
+		B5F799DF19FFDC9E00B7949E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PaperSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PaperSwift.app/PaperSwift";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B5F799B319FFDC9E00B7949E /* Build configuration list for PBXProject "PaperSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5F799D819FFDC9E00B7949E /* Debug */,
+				B5F799D919FFDC9E00B7949E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5F799DA19FFDC9E00B7949E /* Build configuration list for PBXNativeTarget "PaperSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5F799DB19FFDC9E00B7949E /* Debug */,
+				B5F799DC19FFDC9E00B7949E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B5F799DD19FFDC9E00B7949E /* Build configuration list for PBXNativeTarget "PaperSwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5F799DE19FFDC9E00B7949E /* Debug */,
+				B5F799DF19FFDC9E00B7949E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B5F799BF19FFDC9E00B7949E /* PaperSwift.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B5F799C019FFDC9E00B7949E /* PaperSwift.xcdatamodel */,
+			);
+			currentVersion = B5F799C019FFDC9E00B7949E /* PaperSwift.xcdatamodel */;
+			path = PaperSwift.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B5F799B019FFDC9E00B7949E /* Project object */;
+}
